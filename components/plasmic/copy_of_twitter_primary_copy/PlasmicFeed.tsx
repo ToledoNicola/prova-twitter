@@ -38,6 +38,7 @@ import ActionButton from "../../ActionButton"; // plasmic-import: ThTj1ia1xzyMF/
 import Spacer from "../../Spacer"; // plasmic-import: kNGmokXiskPehV/component
 import Avatar from "../../Avatar"; // plasmic-import: znvNxN-p8NmP4I/component
 import Button from "../../Button"; // plasmic-import: AN_TmxifACLjxq/component
+import Lista from "../../Lista"; // plasmic-import: KavZmR2WSu_/component
 import Tweet from "../../Tweet"; // plasmic-import: xdy9x6J9RGV7j/component
 import SideSection from "../../SideSection"; // plasmic-import: Y_COCBceTE-ZK1/component
 import Trend from "../../Trend"; // plasmic-import: JKT-Ml_ZZCz0qd/component
@@ -82,7 +83,7 @@ export type PlasmicFeed__OverridesType = {
   avatar?: p.Flex<typeof Avatar>;
   newTweetInput?: p.Flex<"textarea">;
   tweetButton?: p.Flex<typeof Button>;
-  tweetList?: p.Flex<"div">;
+  listaTweets?: p.Flex<typeof Lista>;
   searchInput?: p.Flex<"input">;
 };
 
@@ -515,297 +516,11 @@ function PlasmicFeed__RenderFunc(props: {
                 </div>
               ) : null}
 
-              <div
-                data-plasmic-name={"tweetList"}
-                data-plasmic-override={overrides.tweetList}
-                className={classNames(projectcss.all, sty.tweetList)}
-              >
-                <Tweet
-                  className={classNames("__wab_instance", sty.tweet__wliPo)}
-                />
-
-                <Tweet
-                  className={classNames("__wab_instance", sty.tweet__gdq5W)}
-                  name={"Cassidy Williams"}
-                  photo={
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__hjVwh)}
-                      displayHeight={"49px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"none" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"49px" as const}
-                      src={{
-                        src: "/plasmic/copy_of_twitter_primary_copy/images/image4.png",
-                        fullWidth: 400,
-                        fullHeight: 400,
-                        aspectRatio: undefined
-                      }}
-                    />
-                  }
-                  username={"@cassidoo"}
-                >
-                  <p.Stack
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.freeBox__mo2L5)}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__uGqzI
-                      )}
-                    >
-                      {"A new issue is coming your way, check your inbox!!"}
-                    </div>
-
-                    <p.Stack
-                      as={"div"}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.freeBox__x3G1G)}
-                    >
-                      <p.PlasmicImg
-                        alt={""}
-                        className={classNames(sty.img__zHfVc)}
-                        displayHeight={"140px" as const}
-                        displayMaxHeight={"none" as const}
-                        displayMaxWidth={"none" as const}
-                        displayMinHeight={"0" as const}
-                        displayMinWidth={"0" as const}
-                        displayWidth={"140px" as const}
-                        src={{
-                          src: "/plasmic/copy_of_twitter_primary_copy/images/image5.png",
-                          fullWidth: 240,
-                          fullHeight: 240,
-                          aspectRatio: undefined
-                        }}
-                      />
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.freeBox__sgHMu
-                        )}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text___3OugB
-                          )}
-                        >
-                          <React.Fragment>
-                            <React.Fragment>{""}</React.Fragment>
-                            <span
-                              className={
-                                "plasmic_default__all plasmic_default__span"
-                              }
-                              style={{ fontWeight: 700 }}
-                            >
-                              {"rendezvous with cassidoo"}
-                            </span>
-                            <React.Fragment>{""}</React.Fragment>
-                          </React.Fragment>
-                        </div>
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__jwfKl
-                          )}
-                        >
-                          {"probably the best newsletter you'll ever read"}
-                        </div>
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__ww7Tz
-                          )}
-                        >
-                          {"cassidoo.co"}
-                        </div>
-                      </div>
-                    </p.Stack>
-                  </p.Stack>
-                </Tweet>
-
-                <Tweet
-                  className={classNames("__wab_instance", sty.tweet__msbBv)}
-                  name={"Max Stoiber"}
-                  photo={
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__uQFhw)}
-                      displayHeight={"49px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"none" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"49px" as const}
-                      src={{
-                        src: "/plasmic/copy_of_twitter_primary_copy/images/image7.png",
-                        fullWidth: 400,
-                        fullHeight: 400,
-                        aspectRatio: undefined
-                      }}
-                    />
-                  }
-                  username={"@mxstbr"}
-                >
-                  {
-                    "Tell me you're a React developer without telling me you're a React developer."
-                  }
-                </Tweet>
-
-                <Tweet
-                  className={classNames("__wab_instance", sty.tweet__kfAje)}
-                />
-
-                <Tweet
-                  className={classNames("__wab_instance", sty.tweet__mgrZe)}
-                  name={"Cassidy Williams"}
-                  photo={
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__fzQk1)}
-                      displayHeight={"49px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"none" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"49px" as const}
-                      src={{
-                        src: "/plasmic/copy_of_twitter_primary_copy/images/image4.png",
-                        fullWidth: 400,
-                        fullHeight: 400,
-                        aspectRatio: undefined
-                      }}
-                    />
-                  }
-                  username={"@cassidoo"}
-                >
-                  <p.Stack
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.freeBox__abIzJ)}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__fGye4
-                      )}
-                    >
-                      {"A new issue is coming your way, check your inbox!!"}
-                    </div>
-
-                    <p.Stack
-                      as={"div"}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.freeBox__sKwpD)}
-                    >
-                      <p.PlasmicImg
-                        alt={""}
-                        className={classNames(sty.img__iaKA)}
-                        displayHeight={"140px" as const}
-                        displayMaxHeight={"none" as const}
-                        displayMaxWidth={"none" as const}
-                        displayMinHeight={"0" as const}
-                        displayMinWidth={"0" as const}
-                        displayWidth={"140px" as const}
-                        src={{
-                          src: "/plasmic/copy_of_twitter_primary_copy/images/image5.png",
-                          fullWidth: 240,
-                          fullHeight: 240,
-                          aspectRatio: undefined
-                        }}
-                      />
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.freeBox__dweiT
-                        )}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__wn4Mn
-                          )}
-                        >
-                          <React.Fragment>
-                            <React.Fragment>{""}</React.Fragment>
-                            <span
-                              className={
-                                "plasmic_default__all plasmic_default__span"
-                              }
-                              style={{ fontWeight: 700 }}
-                            >
-                              {"rendezvous with cassidoo"}
-                            </span>
-                            <React.Fragment>{""}</React.Fragment>
-                          </React.Fragment>
-                        </div>
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__y8St4
-                          )}
-                        >
-                          {"probably the best newsletter you'll ever read"}
-                        </div>
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text___9VJgN
-                          )}
-                        >
-                          {"cassidoo.co"}
-                        </div>
-                      </div>
-                    </p.Stack>
-                  </p.Stack>
-                </Tweet>
-
-                <Tweet
-                  className={classNames("__wab_instance", sty.tweet___8Popk)}
-                  name={"Max Stoiber"}
-                  photo={
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__xvpbO)}
-                      displayHeight={"49px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"none" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"49px" as const}
-                      src={{
-                        src: "/plasmic/copy_of_twitter_primary_copy/images/image7.png",
-                        fullWidth: 400,
-                        fullHeight: 400,
-                        aspectRatio: undefined
-                      }}
-                    />
-                  }
-                  username={"@mxstbr"}
-                >
-                  {
-                    "Tell me you're a React developer without telling me you're a React developer."
-                  }
-                </Tweet>
-              </div>
+              <Lista
+                data-plasmic-name={"listaTweets"}
+                data-plasmic-override={overrides.listaTweets}
+                className={classNames("__wab_instance", sty.listaTweets)}
+              />
             </div>
 
             {(
@@ -1127,13 +842,13 @@ const PlasmicDescendants = {
     "avatar",
     "newTweetInput",
     "tweetButton",
-    "tweetList",
+    "listaTweets",
     "searchInput"
   ],
   avatar: ["avatar"],
   newTweetInput: ["newTweetInput"],
   tweetButton: ["tweetButton"],
-  tweetList: ["tweetList"],
+  listaTweets: ["listaTweets"],
   searchInput: ["searchInput"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -1144,7 +859,7 @@ type NodeDefaultElementType = {
   avatar: typeof Avatar;
   newTweetInput: "textarea";
   tweetButton: typeof Button;
-  tweetList: "div";
+  listaTweets: typeof Lista;
   searchInput: "input";
 };
 
@@ -1208,7 +923,7 @@ export const PlasmicFeed = Object.assign(
     avatar: makeNodeComponent("avatar"),
     newTweetInput: makeNodeComponent("newTweetInput"),
     tweetButton: makeNodeComponent("tweetButton"),
-    tweetList: makeNodeComponent("tweetList"),
+    listaTweets: makeNodeComponent("listaTweets"),
     searchInput: makeNodeComponent("searchInput"),
 
     // Metadata about props expected for PlasmicFeed

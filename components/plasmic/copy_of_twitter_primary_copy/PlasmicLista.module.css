@@ -1,0 +1,278 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: auto;
+  position: relative;
+}
+.tweet__fMGdD:global(.__wab_instance) {
+  position: relative;
+}
+.img___9BHqI {
+  object-fit: cover;
+  width: 49px;
+  height: 49px;
+  position: relative;
+  border-radius: 50%;
+}
+.img___9BHqI > picture > img {
+  object-fit: cover;
+}
+.img___9BHqI > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.tweet__clRi:global(.__wab_instance) {
+  position: relative;
+}
+.freeBox__zfMl0 {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.freeBox__zfMl0 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-width: 0;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.freeBox__zfMl0 > :global(.__wab_flex-container) > *,
+.freeBox__zfMl0 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__zfMl0 > :global(.__wab_flex-container) > picture > img,
+.freeBox__zfMl0
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.freeBox___2Apdr {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: var(--token-IR0kOPdl04CzHl);
+  min-width: 0;
+  border-radius: 8px;
+  border: 1px solid var(--token-IR0kOPdl04CzHl);
+}
+.freeBox___2Apdr > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-width: 0;
+  margin-left: calc(0px - 1px);
+  width: calc(100% + 1px);
+}
+.freeBox___2Apdr > :global(.__wab_flex-container) > *,
+.freeBox___2Apdr > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___2Apdr > :global(.__wab_flex-container) > picture > img,
+.freeBox___2Apdr
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 1px;
+}
+.img___8CZ8F {
+  position: relative;
+  object-fit: cover;
+  width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+}
+.img___8CZ8F > picture > img {
+  object-fit: cover;
+}
+.img___8CZ8F > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.freeBox___1UR68 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  min-width: 0;
+  padding: 8px;
+}
+.text__j8JKr {
+  position: relative;
+}
+.text__hf2Id {
+  position: relative;
+}
+.text__ztbEn {
+  position: relative;
+}
+.img__gw7KZ {
+  object-fit: cover;
+  width: 49px;
+  height: 49px;
+  position: relative;
+  border-radius: 50%;
+}
+.img__gw7KZ > picture > img {
+  object-fit: cover;
+}
+.img__gw7KZ > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.tweet__zAf23:global(.__wab_instance) {
+  position: relative;
+}
+.img__rsKnY {
+  object-fit: cover;
+  width: 49px;
+  height: 49px;
+  position: relative;
+  border-radius: 50%;
+}
+.img__rsKnY > picture > img {
+  object-fit: cover;
+}
+.img__rsKnY > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.tweet___2IDtI:global(.__wab_instance) {
+  position: relative;
+}
+.img__z4Wnv {
+  object-fit: cover;
+  width: 49px;
+  height: 49px;
+  position: relative;
+  border-radius: 50%;
+}
+.img__z4Wnv > picture > img {
+  object-fit: cover;
+}
+.img__z4Wnv > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.tweet__jTwcV:global(.__wab_instance) {
+  position: relative;
+}
+.freeBox__hAsRk {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.freeBox__hAsRk > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-width: 0;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.freeBox__hAsRk > :global(.__wab_flex-container) > *,
+.freeBox__hAsRk > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__hAsRk > :global(.__wab_flex-container) > picture > img,
+.freeBox__hAsRk
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.freeBox__gig6S {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: var(--token-IR0kOPdl04CzHl);
+  min-width: 0;
+  border-radius: 8px;
+  border: 1px solid var(--token-IR0kOPdl04CzHl);
+}
+.freeBox__gig6S > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-width: 0;
+  margin-left: calc(0px - 1px);
+  width: calc(100% + 1px);
+}
+.freeBox__gig6S > :global(.__wab_flex-container) > *,
+.freeBox__gig6S > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__gig6S > :global(.__wab_flex-container) > picture > img,
+.freeBox__gig6S
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 1px;
+}
+.img__pibXx {
+  position: relative;
+  object-fit: cover;
+  width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+}
+.img__pibXx > picture > img {
+  object-fit: cover;
+}
+.img__pibXx > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.freeBox__nvHfp {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  min-width: 0;
+  padding: 8px;
+}
+.text__fzkTa {
+  position: relative;
+}
+.text__kxOHe {
+  position: relative;
+}
+.text__cu1Le {
+  position: relative;
+}
+.img__kwYh1 {
+  object-fit: cover;
+  width: 49px;
+  height: 49px;
+  position: relative;
+  border-radius: 50%;
+}
+.img__kwYh1 > picture > img {
+  object-fit: cover;
+}
+.img__kwYh1 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.tweet__dq8T:global(.__wab_instance) {
+  position: relative;
+}
+.img__yQl6M {
+  object-fit: cover;
+  width: 49px;
+  height: 49px;
+  position: relative;
+  border-radius: 50%;
+}
+.img__yQl6M > picture > img {
+  object-fit: cover;
+}
+.img__yQl6M > .__wab_img-spacer > img {
+  object-fit: cover;
+}

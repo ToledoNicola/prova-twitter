@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -142,6 +142,19 @@
             "modulePath": "Suggestion.tsx"
           },
           "cssFilePath": "plasmic/copy_of_twitter_primary_copy/PlasmicSuggestion.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "KavZmR2WSu_",
+          "name": "Lista",
+          "type": "managed",
+          "projectId": "5PB5qCyELTTB2Fu8TWkbXw",
+          "renderModuleFilePath": "plasmic/copy_of_twitter_primary_copy/PlasmicLista.tsx",
+          "importSpec": {
+            "modulePath": "Lista.tsx"
+          },
+          "cssFilePath": "plasmic/copy_of_twitter_primary_copy/PlasmicLista.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         }
