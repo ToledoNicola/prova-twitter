@@ -1,0 +1,18 @@
+.root {
+  display: flex;
+  position: relative;
+}
+.img__mVvIf {
+  object-fit: cover;
+  width: 49px;
+  height: 49px;
+  position: relative;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+.img__mVvIf > picture > img {
+  object-fit: cover;
+}
+.img__mVvIf > .__wab_img-spacer > img {
+  object-fit: cover;
+}
